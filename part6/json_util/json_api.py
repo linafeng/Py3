@@ -1,5 +1,6 @@
 # -*- coding:utf-8 -*-
 import json
+
 """
 dumps是将dict转化成str格式，loads是将str转化成dict格式。
 dump和load也是类似的功能，只是与文件操作结合起来了。
@@ -20,4 +21,3 @@ print(d2)
 f2 = open('dumpjson.txt', 'r')
 d3 = json.load(f2)
 print(d3)
-
